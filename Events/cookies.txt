@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.facebook.com	TRUE	/	FALSE	1999999999	sb	r3NrWhwy5ovdNm2S-lP6gd2t
+www.instagram.com	TRUE	/	FALSE	1999999999	mid	WmtzsQAEAAGZxfI-iMThi5-ALSWB
+www.znetlive.com	TRUE	/	FALSE	1999999999	PHPSESSID	efda6f1099dadb09182e795418bbd429
+www.instagram.com	TRUE	/	FALSE	1999999999	rur	FRC
+www.instagram.com	TRUE	/	FALSE	1999999999	csrftoken	Qiipq7TZAoIKvXWdtvGK617EOfNdH8BL
+www.instagram.com	TRUE	/	FALSE	1999999999	urlgen	{\"time\": 1516991749}:1ef8qs:SAeYN4u7cxVKT_wWUX8QOXIQ9os"
+.facebook.com	TRUE	/	FALSE	1999999999	fr	0WZILhc5NRys5NgCy..Baa3Ov.Vp.AAA.0.0.Baa3UF.AWXhJj-g
+
