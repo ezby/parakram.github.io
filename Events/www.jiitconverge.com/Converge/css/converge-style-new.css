@@ -104,7 +104,7 @@ a:focus{
 
 @font-face{
 	font-family:"BrandonGrotesque-Med";
-	src: url('http://www.jiitconverge.com/Converge/fonts/Brandon_med.otf') format('opentype'),url('http://www.jiitconverge.com/Converge/fonts/Brandon_med.eot');
+	src: url('../fonts/Brandon_med.otf') format('opentype'),url('../fonts/Brandon_med.eot');
 }
 
 .noselect {
@@ -392,7 +392,7 @@ div.letter8>span.red{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url("http://www.jiitconverge.com/Converge/images/loader-gif/Preloader.gif") center no-repeat #fff;
+	background: url("../images/loader-gif/Preloader.gif") center no-repeat #fff;
 }
 
 .page-set{
@@ -434,7 +434,7 @@ div.letter8>span.red{
 	visibility:hidden;
 }
 
-#page01,#page02,#page03,#page04,#page05{
+#page01,#page02,#page03,#page04,#page05,#page06,#page07,#page08{
 	-webkit-transition: all 1250ms cubic-bezier(0.860, 0.000, 0.070, 1.000); 
 	-moz-transition: all 1250ms cubic-bezier(0.860, 0.000, 0.070, 1.000); 
 	-o-transition: all 1250ms cubic-bezier(0.860, 0.000, 0.070, 1.000); 
@@ -457,7 +457,7 @@ div.letter8>span.red{
 
 #page02{
 	left:100%;
-	background-image:url("../images/bg/bg_black.jpg");
+	background-image:url("../images/bg/bg_animatrix.jpg");
 	-moz-background-size:100% 100%;
 	-webkit-background-size:100% 100%;
 	background-size:100% 100%;
@@ -465,30 +465,70 @@ div.letter8>span.red{
 
 #page03{
 	left:200%;
-	background-image:url("../images/bg/bg_white.png");
+	background-image:url("../images/bg/bg_animatrix.jpg");
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
 	
 }
 
 #page04{
 	left:300%;
+	background-image:url("../images/bg/bg_animatrix.jpg");
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	
+}
+
+#page05{
+	left:400%;
+	background-image:url("../images/bg/bg_animatrix.jpg");
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	
+}
+
+#page06{
+	left:500%;
+	background-image:url("../images/bg/bg_animatrix.jpg");
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	
+}
+
+#page07{
+	left:600%;
+	background-image:url("../images/bg/bg_animatrix.jpg");
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	
+}
+
+
+#page08{
+	left:700%;
 	background-image:url("../images/bg/bg_black.jpg");
 	-moz-background-size:100% 100%;
 	-webkit-background-size:100% 100%;
 	background-size:100% 100%;
 	
 }
-#page05{
+/*#page05{
 	left:400%;
 	background-image:url("../images/bg/bg_grey.png");
 	overflow:visible;	
-}
+}*/
 
 .event1{
-	width:536px;
-	height:592px;
+	width:1536px;
+	height: 200px;
 	margin:0px auto;
 	//margin-top:50px;
-	background:url("../images/event/event1.png");
+	background:url("../images/event/animatrix1.png");
 	-moz-background-size:100% 100%;
 	-webkit-background-size:100% 100%;
 	background-size:100% 100%;
@@ -508,7 +548,7 @@ div.letter8>span.red{
 	height:592px;
 	margin:0px auto;
 	//margin-top:50px;
-	background:url("http://www.jiitconverge.com/Converge/images/event/event3.png");
+	background:url("../images/event/event3.png");
 	-moz-background-size:100% 100%;
 	-webkit-background-size:100% 100%;
 	background-size:100% 100%;
@@ -882,7 +922,7 @@ div.sub-pages-checksp>div.sub-page-body>div.full,div.sub-pages>div.sub-page-body
 	word-wrap:break-word;
 	text-align:center;
 	font-weight:100;    /* 400 */
-	font-size:200%;
+	font-size:300%;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -1289,7 +1329,7 @@ div.sub-pages-checksp>div.sub-page-body>div.full,div.sub-pages>div.sub-page-body
 	height:80%;
 	margin:0px auto;
 	margin-top:100px;
-	background: url(http://www.jiitconverge.com/Converge/images/title/converge-logo1.png) no-repeat;
+	background: url(../images/title/converge-logo1.png) no-repeat;
 	background-size:auto 100%;
 	background-position:center;	
 }
@@ -1308,7 +1348,7 @@ div.sub-pages-checksp>div.sub-page-body>div.full,div.sub-pages>div.sub-page-body
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url("http://www.jiitconverge.com/Converge/images/loader-gif/Preloader.gif") center no-repeat #fff;
+	background: url("../images/loader-gif/Preloader.gif") center no-repeat #fff;
 }
 
 .social{
@@ -1325,7 +1365,7 @@ background:none;
 .insta{	
 	width:40px;
 	height:40px;
-	background:url("http://www.jiitconverge.com/Converge/images/title/insta-icon.png") center no-repeat;
+	background:url("../images/title/insta-icon.png") center no-repeat;
 	background-size:100% 100%;
 	position:absolute;
 	top:0px;
@@ -1335,7 +1375,7 @@ background:none;
 .fb{	
 	width:40px;
 	height:40px;
-	background:url("http://www.jiitconverge.com/Converge/images/title/fb-icon.png") center no-repeat;
+	background:url("../images/title/fb-icon.png") center no-repeat;
 	background-size:100% 100%;
 	position:absolute;
 	top:0px;
@@ -1438,20 +1478,4 @@ svg {
     z-index: 1000;
     width: 20%;
 }
-}
-.content-section-b {
-	display: flex;
-    height: 50vh;
-}
-.side-content h3 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #999;
-	display: block;
-    font-size: 1.17em;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
 }

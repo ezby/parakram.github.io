@@ -1,6 +1,6 @@
 // JavaScript Document
 var page=1;
-var maxPageCount=5;
+var maxPageCount=8;
 var effect=0;
 var subWindowOpened=false;
 var internId;
@@ -164,7 +164,7 @@ $(function(){
 		}
 	}
 	
-	function goUpWheelHighlights(){
+	function goUpWheelHighlights(){ 	
 		if(subWindowOpened==false){
 			if(scrollPositionSubWindow=="top"){
 				shake=page-1;
@@ -351,18 +351,26 @@ $(function(){
 								break;
 							}
 					case 3 : {	
-								if($(".contain-categories").scrollTop()==0){
-								goUpWheelHighlights();
-								}
-								return true;
+								goUpWheel();
 								break;
 							}
-					case 4 : {
-								
-								goUpWheelReachUs();
+					case 4 : {	
+								goUpWheel();
 								break;
 							}
-					case 5 : {
+					case 5 : {	
+								goUpWheel();
+								break;
+							}
+					case 6 : {	
+								goUpWheel();
+								break;
+							}		
+					case 7 : {	
+								goUpWheel();
+								break;
+							}
+					case 8 : {
 								if($(".contain-categories").scrollTop()==0){
 								goUpWheelCredits();
 								}
@@ -383,15 +391,30 @@ $(function(){
 								break;
 							}
 					case 3 : {
-								goDownWheelHighlights();
+								goDownWheel();
 								break;
 							}
 					case 4 : {
-								goDownWheelReachUs();
-								return true;
+								goDownWheel();
+								
 								break;
 							}
 					case 5 : {
+								goDownWheel();
+								
+								break;
+							}
+					case 6 : {
+								goDownWheel();
+								
+								break;
+							}
+					case 7 : {
+								goDownWheel();
+								
+								break;
+							}		
+					case 8 : {
 								goDownWheelCredits();
 								break;
 							}
@@ -444,7 +467,7 @@ $(function(){
 			scaledFocusedPage="1";
 			$(obj).parent().parent().parent().children(".sub-page-body").css("overflow-y","hidden");
 			$(obj).parent().parent().parent().children(".sub-page-body").scrollTop(0);
-			if(page==2)
+			if(page==2||page==3||page==4||page==5||page==6||page==7)
 				$(obj).parent().parent().parent().children(".sub-page-title").children(".menu-sub-page").html("<div class='title-sub-page'>CONVERGE</div><div class='title-sub-page'>EVENTS</div><div class='title-sub-page'>" + text + "</div>");
 			$(obj).parent().parent().parent().children(".sub-page-body").children(".block-page").removeClass("hidden");
 			$(obj).parent().parent().parent().children(".sub-page-body").children(".block-page").css("top","0px");
@@ -526,7 +549,7 @@ $(function(){
 					},500);
 				}
 			});
-		}else if(page==2){
+	}else if(page==2||page==3||page==4||page==5||page==6||page==7){
 			$(".sub-pages").children(".sub-page-body").children(".sub-page-blocks").css("transform","translateY(0)");
 			$(".sub-pages").children(".sub-page-body").children(".sub-page-blocks").css("opacity","1");
 			$(".toggle-header").css("transform","translateY(100%)");			
@@ -743,7 +766,7 @@ $(function(){
 								return;
 						scrollPositionSubWindow="none";
 						page--;
-						if(page==2||page==4){
+			if(page==2||page==3||page==4||page==5||page==6||page==7){
 							setTimeout(function(){
 								$(".zoom-out").addClass("zoom-out-white");
 							},500);
@@ -797,14 +820,26 @@ $(function(){
 										break;
 									}
 							case 3 : {
-										goUpWheelHighlights();
+										goUpWheel();
 										break;
 									}
 							case 4 : {
-										goUpWheelReachUs();
+										goUpWheel();
 										break;
 									}
 							case 5 : {
+										goUpWheel();
+										break;
+									}
+							case 6 : {
+										goUpWheel();
+										break;
+									}
+							case 7 : {
+										goUpWheel();
+										break;
+									}		
+							case 8 : {
 										goUpWheelCredits();
 										break;
 									}
@@ -817,7 +852,7 @@ $(function(){
 							return;
 						scrollPositionSubWindow="none";
 						page++;
-						if(page==2||page==4){
+						if(page==2||page==3||page==4||page==5||page==6||page==7){
 							setTimeout(function(){
 								$(".zoom-out").addClass("zoom-out-white");
 							},500);
@@ -860,14 +895,26 @@ $(function(){
 										break;
 									}
 							case 3 : {
-										goDownWheelHighlights();
+										goDownWheel();
 										break;
 									}
 							case 4 : {
-										goDownWheelReachUs();
+										goDownWheel();
 										break;
 									}
 							case 5 : {
+										goDownWheel();
+										break;
+									}
+							case 6 : {
+										goDownWheel();
+										break;
+									}
+							case 7 : {
+										goDownWheel();
+										break;
+									}		
+							case 8 : {
 										goDownWheelCredits();
 										break;
 									}
@@ -932,7 +979,7 @@ $(function(){
 						if($(document.activeElement).get(0).tagName=="INPUT"){
 							return true;
 						}
-						if(page==2&&subWindowOpened==true){
+						if((page==2||page==3||page==4||page==5||page==6||page==7)&&subWindowOpened==true){
 							if(formOpened==true){
 								formOpened=false;
 								$(".zoom-out-sub-events").parent().children(".event-content").css("transform","translateY(0%)");
@@ -986,7 +1033,7 @@ $(function(){
 						if($(document.activeElement).get(0).tagName=="INPUT"){
 							return true;
 						}
-						if(page==2&&subWindowOpened==true){
+						if((page==2||page==3||page==4||page==5||page==6||page==7)&&subWindowOpened==true){
 							if(formOpened==true){
 								formOpened=false;
 								$(".zoom-out-sub-events").parent().children(".event-content").css("transform","translateY(0%)");
@@ -1122,11 +1169,11 @@ $(function(){
 		console.log("PAGE : " + page);
 		if(page==maxPageCount)
 			return;
-		if(page==2){
+		if(page==2||page==3||page==4||page==5||page==6||page==7){
 			scrollPositionSubWindow="none";
 		}
 		page++;
-		if(page==2||page==4){
+		if(page==2||page==3||page==4||page==5||page==6||page==7){
 			setTimeout(function(){
 				$(".zoom-out").addClass("zoom-out-white");
 			},500);
@@ -1160,11 +1207,11 @@ $(function(){
 	$(".left-move-button").on("click",function(){
 		if(page==1)
 				return;
-		if(page==2){
+		if(page==2||page==3||page==4||page==5||page==6||page==7){
 			scrollPositionSubWindow="none";
 		}
 		page--;
-		if(page==2||page==4){
+		if(page==2||page==3||page==4||page==5||page==6||page==7){
 			setTimeout(function(){
 				$(".zoom-out").addClass("zoom-out-white");
 			},500);
@@ -1217,14 +1264,26 @@ $(function(){
 						break;
 					}
 			case 3 : {
-						goDownWheelHighlights();
+						goDownWheel();
 						break;
 					}
 			case 4 : {
-						goDownWheelReachUs();
+						goDownWheel();
 						break;
 					}
 			case 5 : {
+						goDownWheel();
+						break;
+					}
+			case 6 : {
+						goDownWheel();
+						break;
+					}
+			case 7 : {
+						goDownWheel();
+						break;
+					}		
+			case 8 : {
 						goDownWheelCredits();
 						break;
 					}
