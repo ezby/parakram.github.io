@@ -103,7 +103,10 @@ a.next-event-top:hover {
 }
 
 span.color {
+	font-family: 'totta', sans-serif;
 	color: #0feb9e;
+	font-weight: 10;
+	font-size : 55px;
 }
 
 body > section,
@@ -114,12 +117,19 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #0eb493;
-  font-size: 28px;
-  font-weight: 800;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
   text-transform: uppercase;
 }
-
+.incentive-title h2 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 .sec-sub-title {
 	margin: 35px 0 45px;
 }
@@ -341,12 +351,13 @@ top: -8px;
 }
 
 .service-icon {
-  border: 1px solid #0eb493;
-  border-radius: 50%;
-  color: #0eb493;
+  border: 1px solid #10171c;
+  border-radius: 100%;
+  color: #10171c;
   float: left;
   padding: 10px 13px;
 }
+
 
 .service-desc {
   margin-left: 70px;
@@ -419,9 +430,8 @@ top: -8px;
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	border-radius: 2px;
-	border-color: #fff;	
-	
+	padding-left:30px;
+	padding-right: 30px;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	
@@ -617,13 +627,19 @@ top: -8px;
 .contact-form h3 {
   color: #062033;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 32px;
   margin-bottom: 25px;
 }
 
-.contact-form .input-group {
+.contact-form  {
   width: 100%;
+  margin-left: 200px;	
+}
+.input-group {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 30px;
 }
 
 .contact-form .form-control {
@@ -658,16 +674,18 @@ label.error {
 .contact-form #form-submit {
   background: url("../img/envelop.png") no-repeat scroll 0 15px transparent;
   border: 0 none;
+  text-align: center;
   color: #000;
   font-size: 16px;
   line-height: 24px;
   padding: 10px;
   text-align: right;
-  width: 150px;
+  width: 110px;
 }
 
 .footer-social {
   margin-top: 17px;
+  margin-left: 30px;
 }
 
 .footer-social li a {
@@ -768,3 +786,8 @@ footer a:hover {
 .works{
 	padding-bottom: 150px;
 }
+@font-face {
+ font-family : totta;
+src : url(../digital.ttf);
+}
+ 
