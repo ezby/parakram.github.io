@@ -29,10 +29,12 @@ h2 {
 }
 
 h1 {
+
     font-family: 'renasci', sans-serif;
     font-size: 70px;
     font-weight: 500;
     letter-spacing: 12px;
+
     line-height: 90px;
 }
 
@@ -501,7 +503,9 @@ a.next-event-top:hover {
 .about-intro h3 {
     font-family: 'renasci';
     color: #fff;
+
     font-size: 70px;
+
     line-height: 1.3em;
     text-transform: uppercase;
 	letter-spacing: 8px;
@@ -1179,5 +1183,10 @@ src : url(../renasci-regular.otf);
  font-family : renascilight;
 src : url(../renasci-light.otf);
 }
- 
+
+@font-face{ 
+ font-family : totta;
+src : url(../digital.ttf);
+}
+
  
