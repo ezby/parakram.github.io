@@ -1263,6 +1263,7 @@ footer a:hover {
 	
 }
 @font-face {
+
  font-family : renasci;
 src : url(../renasci-regular.otf);
 }
@@ -1275,5 +1276,3 @@ src : url(../renasci-light.otf);
  font-family : totta;
 src : url(../digital.ttf);
 }
-
- 
