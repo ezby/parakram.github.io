@@ -52,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'renasci', sans-serif;
 	font-weight: 700;
 	margin-top: 0;
 }
@@ -60,6 +60,7 @@ h6 {
 
 h1 {
 	font-size: 38px;
+	font-family: 'fontz', sans-serif;
 }
 
 h2 {  
@@ -85,7 +86,7 @@ h6 {
 
 img {
 	border: none;
-	border-radius: 25px;
+	
 	max-width: 100%;
 }
 
@@ -169,7 +170,7 @@ button:focus {
     margin-bottom: 16px;
     line-height: 1.42857143;
     background-color: #fff;
-    border-radius: 4px;
+  
 }
    
 
@@ -1147,10 +1148,14 @@ button:focus {
 	width: 100%;
 }
 
+
+
 .mu-sponsors-area {
+	color:#333;
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 10px 5px;
+	letter-spacing: 10px;
 	width: 100%;
 }
 
@@ -1242,7 +1247,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-image: url("../img/sponsors/contact.jpg");
+	background-color:#333;
     color:#fff;
 	float: left;
 	width: 100%;
@@ -1870,4 +1875,8 @@ button:focus {
 	
 	
 	
+
+@font-face {
+ font-family : fontz !important;
+src : url(../renasci-regular.otf);
 }

@@ -29,10 +29,10 @@ h2 {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'renasci', sans-serif;
     font-size: 70px;
     font-weight: 500;
-    letter-spacing: 6px;
+    letter-spacing: 12px;
     line-height: 90px;
 }
 
@@ -289,14 +289,16 @@ a.next-event-top:hover {
 .newsletter {
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
     padding: 65px;
+	margin-bottom: 80px;
 }
 
 .newsletter h3 {
     color: #fff;
-    font-family: 'Oswald', sans-serif;
-    font-size: 45px;
+    font-family: 'renascilight', sans-serif;
+    font-size: 65px;
     line-height: 1.45em;
-    letter-spacing: 4px;
+
+    letter-spacing: 6px;
     text-transform: uppercase;
     margin: 0;
 }
@@ -385,7 +387,7 @@ a.next-event-top:hover {
 }
 
 .intro-2 h1 {
-    font-size: 60px;
+    font-size: 100px;
     line-height: 1.35em;
     width: 70%;
     margin-bottom: 30px;
@@ -419,7 +421,9 @@ a.next-event-top:hover {
 }
 
 #events h2 {
-    font-size: 80px;
+    font-size: 120px;
+	font-family: 'renasci';
+	
     margin-bottom: 100px;
 }
 
@@ -495,11 +499,12 @@ a.next-event-top:hover {
 }
 
 .about-intro h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'renasci';
     color: #fff;
-    font-size: 40px;
+    font-size: 70px;
     line-height: 1.3em;
     text-transform: uppercase;
+	letter-spacing: 8px;
     width: 70%;
     margin-bottom: 30px;
 }
@@ -829,9 +834,9 @@ footer a:hover {
         margin-left: 8px;
         margin-right: 8px;
         display: inline-block;
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
     }
 }
 
@@ -943,7 +948,7 @@ footer a:hover {
         text-align: center;
     }
     #nav-1 {
-        top: 120px;
+        top: 160px;
     }
     .navbar-toggle {
         float: none;
@@ -1087,7 +1092,7 @@ footer a:hover {
         padding-right: 10px;
     }
     .intro-2 h1 {
-        font-size: 18px;
+        font-size: 60px;
         letter-spacing: 3px;
     }
     .intro-2 p::before {
@@ -1166,3 +1171,13 @@ footer a:hover {
 	
 	
 }
+@font-face {
+ font-family : renasci;
+src : url(../renasci-regular.otf);
+}
+@font-face {
+ font-family : renascilight;
+src : url(../renasci-light.otf);
+}
+ 
+ 
