@@ -1132,19 +1132,106 @@ footer a:hover {
     height: auto;
     width: 100%;
 }
-.box {
+.box-cs {
   width: 250px;
   height: 350px;
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
   border-bottom: 1px solid #777474;
   border-right: 1px solid #777474;
   margin: 5% auto 0 auto;
-  background: url(../images/news2.jpg);
+  background: url(../images/eventhead/cs.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-chem {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/chem.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-civil {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/civil.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-ec {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/ec.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-ee {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/ee.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-mech {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/mech.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-mba {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/mba.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.box-robotics {
+  width: 250px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 1px solid #777474;
+  border-right: 1px solid #777474;
+  margin: 5% auto 0 auto;
+  background: url(../images/eventhead/robotics.jpg);
   background-size: cover;
   border-radius: 5px;
   overflow: hidden;
 }
 
+	background: url(../images/eventhead/chem.jpg);
+  background-size: cover;
+}
 .overlay {
   background: rgba(0, 0, 0, 0.75);
   text-align: center;
